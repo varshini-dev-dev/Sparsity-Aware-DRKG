@@ -1,0 +1,16 @@
+# Ignore huge data files
+*.tsv
+*.csv
+data/
+
+# Ignore PyTorch model weights (too big for GitHub)
+*.pt
+*.pth
+checkpoints/
+results/
+
+# Ignore Python caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+raw/
